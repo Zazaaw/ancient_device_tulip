@@ -24,4 +24,9 @@ allow init vendor_file:file { execute execute_no_trans };
 allow init sysfs_battery_supply:file setattr;
 allow init socket_device:sock_file { unlink setattr create };
 
+<<<<<<< HEAD
 >>>>>>> c9bde09d...  sdm660-common: Address init denials regarding socket_device
+=======
+allow init blkio_dev:file {create};
+
+>>>>>>> 26add772... Fix Sepolicies

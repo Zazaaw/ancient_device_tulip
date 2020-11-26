@@ -6,6 +6,7 @@ binder_call(system_server, folio_daemon)
 get_prop(system_server, vendor_persist_camera_prop)
 
 #Misc
+<<<<<<< HEAD
 
 allow system_server userspace_reboot_exported_prop:file{read};  
 
@@ -18,3 +19,8 @@ get_prop(system_server, vendor_persist_camera_prop)
 >>>>>>> 11ca3f16... sdm660-common :sepolicy: Update Sepolicy for R
 
 >>>>>>> 79e2a8ca... Revert "[DNM] sepolicy hacks"
+=======
+allow system_server blkio_dev:dir{search};
+allow system_server userspace_reboot_exported_prop:file{read};  
+
+>>>>>>> 26add772... Fix Sepolicies
