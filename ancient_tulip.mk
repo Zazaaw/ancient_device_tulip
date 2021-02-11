@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2018-2019 The LineageOS Project
 #
@@ -20,19 +21,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common superior stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+# Ancient Identifier.
+ANCIENT_OFFICIAL := true
+TARGET_USES_BLUR := true
+
 # Some common aosp Properties
-TARGET_INCLUDE_WIFI_EXT := true
-TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := superior_tulip
+PRODUCT_NAME := ancient_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -47,4 +51,3 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/relea
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-	
