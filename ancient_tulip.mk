@@ -1,4 +1,3 @@
-
 #
 # Copyright (C) 2018-2019 The LineageOS Project
 #
@@ -28,6 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Ancient Identifier.
 ANCIENT_OFFICIAL := true
+ANCIENT_GAPPS := true
 TARGET_USES_BLUR := true
 
 # Some common aosp Properties
