@@ -15,4 +15,8 @@ allow system_server kcal_dev:dir r_dir_perms;
 
 allow system_server exported_camera_prop:file { read open getattr };
 
+<<<<<<< HEAD
 >>>>>>> e75215b7... sdm660-common: sepolicy: address exported_camera_prop denials
+=======
+allow system_server default_android_service:service_manager { find };
+>>>>>>> 2f378e76... Tulip: Address more selinux denials
