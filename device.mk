@@ -642,3 +642,7 @@ PRODUCT_BOOT_JARS += \
 # NoCutoutOverlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay    
+
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts \
