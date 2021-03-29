@@ -28,6 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Ancient Identifier.
 ANCIENT_OFFICIAL := true
 TARGET_USES_BLUR := true
+ANCIENT_GAPPS=true
 
 # Some common aosp Properties
 TARGET_BOOT_ANIMATION_RES := 1080
