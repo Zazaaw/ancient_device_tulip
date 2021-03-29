@@ -638,3 +638,7 @@ PRODUCT_PACKAGES += \
 # WiFi Display JAR
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# NoCutoutOverlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay    
