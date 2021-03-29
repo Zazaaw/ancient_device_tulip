@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Maintainer Device -->
+    <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
+    <string name="device_tulip_summary" translatable="false">tulip\nFaiz Hazim Hawari</string>  
+    
+</resources>      
