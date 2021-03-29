@@ -4,12 +4,12 @@
 
     <!-- AncientOS Device Info -->
     <string name="ancient_device_name_summary">Redmi Note 6 Pro</string>
-    <string name="ancient_chipset_type_summary">Qualcomm Snapdragon™ 660</string>
-    <string name="ancient_gpu_summary">Adreno 512</string>
-    <string name="ancient_camera_mp_summary">48MP+12MP Dual Camera</string>
-    <string name="ancient_screen_type_summary">IPS LCD FHD+ 6.3 Screen</string>
+    <string name="ancient_chipset_type_summary">Qualcomm Snapdragon™ 636</string>
+    <string name="ancient_gpu_summary">Adreno 509</string>
+    <string name="ancient_camera_mp_summary">12MP+5MP Dual Camera</string>
+    <string name="ancient_screen_type_summary">IPS LCD FHD+ 6.26 Screen</string>
 
     <!-- AncientOS About Maintainer Info -->
-    <string name="maintainer_name">xyzuan | zazaw</string>
+    <string name="maintainer_name">pais! | zazaaw</string>
 
 </resources>
