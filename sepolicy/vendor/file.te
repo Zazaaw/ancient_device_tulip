@@ -17,6 +17,17 @@ type sysfs_fingerprint, sysfs_type, fs_type;
 
 # Hall Switch
 type hall_dev, sysfs_type, fs_type;
+<<<<<<< HEAD
+=======
+type thermal_data_file, file_type, data_file_type;
+
+# Fastcharge
+type sysfs_fcharge, sysfs_type, fs_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
+type sysfs_info, sysfs_type, fs_type;
+>>>>>>> a339289e... Tulip: add more sepolicys
 
 # Kcal
 type kcal_dev, sysfs_type, fs_type;

@@ -82,8 +82,18 @@ allow system_app cpuboost_prop:property_service set;
 get_prop(system_app, cpuboost_prop);
 set_prop(system_app, cpuboost_prop);
 
+<<<<<<< HEAD
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read };
 allow system_app sysfs_battery_supply:file { open };
 allow system_app sysfs_battery_supply:file { getattr };
 >>>>>>> cb2a7f5f... Tulip: add more sepolicys for battery_suply
+=======
+# Audio gain
+allow system_app sysfs_egain:file { open read getattr write };
+allow system_app sysfs_hgain:file { open read getattr write };
+allow system_app sysfs_mgain:file { open read getattr write };
+
+# zram
+r_dir_file(system_app sysfs_zram)
+>>>>>>> a339289e... Tulip: add more sepolicys

@@ -1,5 +1,10 @@
 
 # FPS Info
 allow platform_app sysfs_fps:file { getattr open read };
+<<<<<<< HEAD
+=======
+allow platform_app sysfs_graphics:dir search;
+allow platform_app default_android_service:service_manager { find };
+>>>>>>> a339289e... Tulip: add more sepolicys
 
 allow platform_app default_android_service:service_manager { find };
